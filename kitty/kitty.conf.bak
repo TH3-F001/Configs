@@ -109,17 +109,11 @@ shell_integration               enabled
 # Rice
 background_opacity              0.55
 background_blur                 1
-# active_border_color #b48ead
-# inactive_border_color #81a1c1
-# bell_border_color #bf616a
+active_border_color #b48ead
+inactive_border_color #81a1c1
+bell_border_color #bf616a
 
 bell_sound /home/neon/Music/SFX/bruh.mp3
 
 # Open default session
 startup_session ~/.config/kitty/default_session.conf
-
-
-# BEGIN_KITTY_THEME
-# Rosé Pine Moon
-include current-theme.conf
-# END_KITTY_THEME
